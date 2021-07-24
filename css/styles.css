@@ -6,4 +6,90 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: lavender;
+}
+
+.container {
+    margin: 4px;
+    padding: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    margin-bottom: 8px;
+    padding: 14px;
+    background-color: rgb(148, 226, 200);
+}
+
+.name, .main-nav a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+.main-nav a {
+    color: #000;
+    background-color: mintcream;
+    margin: 4px;
+    text-decoration: none
+}
+
+#portfolio {
+    margin-bottom: 48px;
+}
+
+h2, h3, p {
+    text-align: center;
+    margin: 14px;
+}
+
+.project {
+    margin: 8px;
+}
+
+.profile-img {
+    max-width: 80%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.contact, .footer {
+    margin: 0px;
+    padding: 20px;
+    background-color: rgb(148, 226, 200);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name-bottom {
+    margin: 8px;
+    font-size: 1em;
+}
+
+.small-nav a {
+    padding: 4px;
+    color: #000;
+    background-color: mintcream;
+    text-decoration: none;
+    font-size: .8em;
+}
+
+.lg-nav {
+    display: none;
 }
