@@ -46,7 +46,7 @@ h2, h3, p {
     margin: 14px;
 }
 
-.project {
+.projects {
     margin: 8px;
 }
 
@@ -61,7 +61,7 @@ img {
     max-width: 100%;
 }
 
-ul {
+nav {
     list-style: none;
 }
 
@@ -90,6 +90,61 @@ ul {
     font-size: .8em;
 }
 
+.lg-nav a {
+    margin: 8px;
+    padding: 4px;
+    color: #000;
+    background-color: mintcream;
+    text-decoration: none;
+    font-size: .8em;
+}
+
 .lg-nav {
     display: none;
+}
+
+@media screen and (min-width: 768px) {
+
+    .main-nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-bottom {
+        display: flex;
+    }
+
+    .small-nav {
+        display: none;
+    }
+    .lg-nav {
+        display: block;
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+    
+    .profile-p {
+        padding-top: 80px;
+    }
+
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .project {
+        flex: 1 50%;
+    }
+
+    .project img {
+        padding: 14px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    
 }
