@@ -61,7 +61,7 @@ img {
     max-width: 100%;
 }
 
-nav {
+ul {
     list-style: none;
 }
 
@@ -105,12 +105,12 @@ nav {
 
 @media screen and (min-width: 768px) {
 
-    .main-nav {
+    .main-nav ul {
         display: flex;
         justify-content: center;
     }
 
-    .nav-bottom {
+    .nav-bottom ul {
         display: flex;
     }
 
@@ -146,5 +146,12 @@ nav {
 }
 
 @media screen and (min-width: 1024px) {
-    
+    .main-header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .project {
+        flex: 1 30%;
+    }
 }
