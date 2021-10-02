@@ -1,2 +1,2 @@
-# treehouse-project2
+# treehouse-techdegree-project-02
  Mobile First Responsive Layout
